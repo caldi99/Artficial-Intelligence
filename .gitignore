@@ -136,8 +136,6 @@ dmypy.json
 
 # Prove folder
 
-Prove/
-models_new/
-dataset/
-.ipynb_checkpoints/
+/data
+/dataset
 *.h5
