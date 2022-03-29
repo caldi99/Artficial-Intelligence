@@ -12,6 +12,7 @@ To be able to execute the code you need to follow the following steps :
 * Finally execute the last jupyter notebook called "face_mask_detector"
 
 
+
 Notice that to be able to execute the code you need to have some hardware and software requirements :
 * Software :
     *  Anaconda, Tensorflow (Gpu Version), Opencv, Cuda
