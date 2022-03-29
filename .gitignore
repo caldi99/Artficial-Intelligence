@@ -139,3 +139,4 @@ dmypy.json
 /data
 /dataset
 *.h5
+*.mp4
