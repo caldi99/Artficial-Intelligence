@@ -1,0 +1,16 @@
+
+\section{Fine Tuning} 
+\begin{flushleft}
+
+When dealing with Images and especially when, when solving classification problems, most of the time Convolutional Neural Network is a good choice to start with or even the only one that can reach a reasonable amount of performances. However building from scratch a new CNN model is something that takes very hard effort both in terms of time and also in terms of computational requirements. \\
+Therefore, a solution to the problem explained above, is to use what it is called "Transfer Learning", that means, instead developing a new model, and the train it, we take an already trained model that works well on some training set for a certain task and then, we adapt it to solve our problem. \\
+Even though with Transfer Learning, the issue of creating a new model is no more present, there exists still the difficulty of re-training the entire Neural Network on a new dataset to tune the network chosen to solve another one. So, what nowadays is common to do is to :
+\begin{itemize}
+    \item Select a pre-trained model in the literature that already was trained using a big dataset, and that seems to solve a problem similar to the one that need to be addressed.
+    \item Remove the last part of it and replace it with new fully connected layers.
+    \item Do not allow the not fully connected layers to be trainable.
+    \item Train the Network with the new dataset.
+\end{itemize}
+
+Such process is what it is also known as Fine Tuning and it is the technique that was used in this project. 
+\end{flushleft}
